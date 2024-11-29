@@ -38,8 +38,10 @@ body {
   --width-sz-wt: 200px;
   --height-sz-ht: 200px;
   --font-family: 'ZeitungPro-Black-_1_';
+  --bs-primary-text-emphasis: #1d5959;
   --index: calc(1.5vw + 1.7vh);
   --transition: cubic-bezier(.1, .7, 0, 1);
+  
 }
 
 .padding-ah { padding:4rem; }
@@ -73,6 +75,11 @@ p  {
   font-size: 1.56rem;
   font-family: var(--font-family);
 }
+
+/* .btn {
+  --bs-btn-bg: red;
+} */
+
 
 li {
   font-size: 1.2rem;
@@ -176,6 +183,15 @@ li {
 }
 
 
+.nav-pills .nav-link {
+  color: #d91a83;
+
+}
+
+.nav-pills .nav-link.active{
+  background-color: #1d5959;
+}
+
 .headline {
     position: absolute;
     display: flex;
@@ -204,7 +220,32 @@ li {
       display: flex;
       background-color: rgba(255, 255, 255, 0.5);
       width: 100vw;                                   
-    }                                  
+    }                    
+    
+.hero_Berlin {
+  background-color:rgb(10, 62, 7);
+  background-image: url("img/Amnibeansflying.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 20%;
+  height: 700px;
+}
+
+    
+.hero_Hamburg {
+  background-color:rgb(10, 62, 7);
+  background-image: url("img/HAMBURGPANORAMA (1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 20%;
+  height: 700px;
+}
+
+.hero_Berlin .hero_Hamburg {
+  background-color:rgba(255, 0, 0, 0.8)
+}
+
+
 .main {
     display: flex;
     position: relative;
