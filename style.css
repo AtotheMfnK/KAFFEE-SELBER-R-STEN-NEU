@@ -171,6 +171,11 @@ li {
   transform: rotate(-405deg);
 }
 
+.logo {
+    width: 5rem;
+    height: auto;
+}
+
 
 .highlighted {
   color: var(--sth-br-cl);
