@@ -1,16 +1,4 @@
 
-/* .btn {
-  --bs-btn-bg: red;
-} */
-
-
-li {
-  font-size: 1.2rem;
-  font-family: var(--font-family);
-  margin-bottom: 1%;
-}
-
-
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -99,8 +87,6 @@ li {
     height: auto;
 }
 
-
-
 .highlighted {
   color: var(--sth-br-cl);
 }
@@ -108,7 +94,7 @@ li {
 .white-background {
   background-color: var(--main-bg-clr);
   padding: 10px 10px;
-  /* F�gen Sie hier weitere Stile f�r den Text hinzu, falls ben�tigt */
+
 }
 
 
@@ -121,19 +107,12 @@ li {
   background-color: #1d5959;
 }
 
-.headline {
-    position: absolute;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    font-size: 6rem;
-    width: 80vw; 
-    font-family: var(--font-family); 
-    color: var(--main-bg-clr);
-    background-color: var(--sth-br-cl);
-    padding: 1% 4%;
-    border-radius: 25px;
-      }
+li {
+  font-size: 1.2rem;
+  font-family: var(--font-family);
+  margin-bottom: 1%;
+}
+
 
 
 .hero_image {
@@ -143,14 +122,23 @@ li {
         object-fit: cover;
         filter: brightness (0.5);                                     
      }
-                                  
-  .container {
-      position: absolute;
+
+     .hero_image_headline {
       display: flex;
-      background-color: rgba(255, 255, 255, 0.5);
-      width: 100vw;                                   
-    }                    
-    
+      position: absolute;
+       justify-content:center;
+      align-items: center;
+      font-size: 6rem;
+      width: 80vw; 
+      font-family: var(--font-family); 
+      color: var(--main-bg-clr);
+      background-color: var(--sth-br-cl);
+      padding: 1% 4%;
+      border-radius: 25px;
+        }
+  
+                                  
+                 
 
 .hero_Berlin {
   background-color:rgb(10, 62, 7);
@@ -181,6 +169,12 @@ li {
  
 } */
 
+.container {
+  position: absolute;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100vw;                                   
+}    
 
 .main {
     display: flex;

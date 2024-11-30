@@ -1,0 +1,77 @@
+* {margin:0;
+}
+
+body {
+  background-color: #F2DEC4;
+  color: var(--prime-fn-clr);
+ 
+}
+
+@font-face {
+  font-family: 'ZeitungPro-Black-_1_';
+  src: url('ZeitungPro-Black-_1_.ttf') format('truetype');
+  font-style: normal; /* Standard (normal) */
+
+}
+
+@font-face {
+  
+  font-family: 'Zeitung Pro Black Italic';
+  src: url('Zeitung Pro Black Italic.ttf') format('truetype');
+  font-style: italic; /* Kursiv */
+}
+
+
+:root{
+  --main-bg-clr: #F2DEC4;
+  --snd-bg-clr: #f28a2e;
+  --thr-bg-cl: #f2d852;
+  --frth-bg-cl:#f22d1b;
+  --fth-bg-cl:  #47278c;
+  --sth-br-cl: #1d5959;
+  --svth-br-cl: #d91a83;
+  --ath-bg-cl: #04bfbf;
+  --prime-fn-clr:  #333;
+  --scn-fn-crl: white;
+  --thr-fn-clr: #729DF2;
+  --frth-fn-clr:#BF8A6B;
+  --width-sz-wt: 200px;
+  --height-sz-ht: 200px;
+  --font-family: 'ZeitungPro-Black-_1_';
+  --bs-primary-text-emphasis: #1d5959;
+  --index: calc(1.5vw + 1.7vh);
+  --transition: cubic-bezier(.1, .7, 0, 1);
+  
+}
+
+.padding-ah { padding:4rem; }
+.padding-fb { padding-top:8%; }
+.padding-tb { padding: 1rem }
+
+.margin-ah { margin-top: 5rem; }
+.margin-or { margin-top: 14rem }
+.margin-lr {margin-left: 2%; margin-right: 2%;}
+
+h1 {
+  font-family: var(--font-family);
+}
+
+h2  {
+  font-size: 2.2em;
+  font-family: var(--font-family);
+}
+
+h3  {
+  font-size: 1.5em;
+  font-family: var(--font-family);
+}
+
+h4  {
+  font-size: 1.5em;
+  font-family: var(--font-family);
+}
+
+p  { 
+  font-size: 1.56rem;
+  font-family: var(--font-family);
+}
