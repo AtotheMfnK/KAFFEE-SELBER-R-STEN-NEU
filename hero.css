@@ -114,20 +114,25 @@ li {
 }
 
 
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/heroimagecoffeetasting24.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -80%; 
+}
 
-.hero_image {
-  position: relative;
-        height: 90vh;
-        width: 100%;
-        object-fit: cover;
-        filter: brightness (0.5);                                     
-     }
 
-     .hero_image_headline {
+
+.hero_headline {
       display: flex;
       position: absolute;
-       justify-content:center;
-      align-items: center;
+      justify-content:center;
+      text-align: center;
       font-size: 6rem;
       width: 80vw; 
       font-family: var(--font-family); 
