@@ -1,0 +1,24 @@
+
+#accordion {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 45%;
+    width: 400px;
+    margin: 20em;
+  }
+  #accordion > h4 {
+    background-color: var(--sth-br-cl);
+    padding: 10px 20px;
+    margin: 0;
+    cursor: pointer;
+    color: white;
+  }
+  
+  #accordion > section {
+    border: 5px solid #000;
+    padding: 10px 20px;
+  }
+  
+  #accordion > section:nth-of-type(n+2) {
+    display: none;
+  }
