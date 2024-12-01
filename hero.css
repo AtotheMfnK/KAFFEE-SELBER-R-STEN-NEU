@@ -130,7 +130,7 @@ li {
 
 .hero_headline {
       display: flex;
-      position: absolute;
+      position: relative;
       justify-content:center;
       text-align: center;
       font-size: 6rem;
@@ -140,6 +140,7 @@ li {
       background-color: var(--sth-br-cl);
       padding: 1% 4%;
       border-radius: 25px;
+      margin-top: -10%;
         }
   
                                   
