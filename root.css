@@ -10,7 +10,7 @@ body {
 @font-face {
   font-family: 'ZeitungPro-Black-_1_';
   src: url('ZeitungPro-Black-_1_.ttf') format('truetype');
-  font-style: normal; /* Standard (normal) */
+  font-style: normal; 
 
 }
 
@@ -18,7 +18,7 @@ body {
   
   font-family: 'Zeitung Pro Black Italic';
   src: url('Zeitung Pro Black Italic.ttf') format('truetype');
-  font-style: italic; /* Kursiv */
+  font-style: italic; 
 }
 
 
