@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     row-gap: 2em;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     width: 100;
     height: 50%;
     margin: 4%;
@@ -17,12 +17,22 @@
 .cards_nairobi {
     display: flex;
     max-width: 60%;
-    height: 40rem;
+    height: 30rem;
     flex-direction: column;
     align-items: center;
-    background-color: green;
-    margin: 1rem;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 3%;   
 }
+
+.cards_berlin h4,
+.cards_hamburg h4,
+.cards_nairobi h4 {
+    background-color: var(--scn-fn-crl);
+    color: var(--sth-br-cl);
+    padding: 0.5rem;
+} 
 
 
 
