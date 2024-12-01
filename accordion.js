@@ -1,13 +1,13 @@
-let titles=document.querySelectorAll("#accordion > h4");
+let titles=documents.querySelectorAll("#accordion > h4");
 function toggleContent() {
   for (let title of titles) {
-    if (title!==this) {
+    if (title!==titles) {
       title.nextElementSibling.style.display="none";
     }
   }
   const displayProperty = window.getComputedStyle(this.nextElementSibling).getPropertyValue("display");
   if(displayProperty==="none") {
-      this.nextElementSibling.style.display="block";
+      this.nextElementSibling.style.display="flex";
 }  else {
     this.nextElementSibling.style.display="none";
      }

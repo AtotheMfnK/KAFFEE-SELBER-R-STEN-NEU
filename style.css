@@ -8,7 +8,7 @@
   background-color: aliceblue;
   width: 100vw;
   height: 80vh;
-  margin-bottom: auto;
+  padding-bottom: 8%;
   }
   
 
@@ -21,7 +21,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     color: white;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 4%;
@@ -30,10 +29,12 @@
 .main h3 {
   font-size: 2rem;
   text-align: start;
+  justify-self: flex-start;
 }
 
 main p {
   font-size: 1.2rem;
+  text-align: start;
 }
 .main  > * img {
     max-width: 100%;
@@ -290,31 +291,6 @@ table {
 }
 
 
-#accordion {
-  width: 100%;
-  height: 4vw;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20rem; 
-  }
-
-#accordion > h4 {
-    background-color: #f28a2e;
-    padding: 10px 20px;
-    margin: 0;
-    cursor: pointer;
-    color: white;
-  }
-  
-#accordion > section {
-    border: 5px solid #000;
-    padding: 10px 20px;
-  
-  }
-  
-#accordion > section{
-    display: none;
-  }
 
 caption {
   caption-side: bottom;
@@ -352,10 +328,50 @@ tfoot td {
   
 @media (max-width: 768px){
 
-.grid-containereins > * {
+
+  .main {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    width: 100vw;
+    height: 180vh;
+    padding-bottom: 8%;
+    }
+    
+  
+    .main > * {
+      display: flex;
+      position: relative;
+      flex-grow: 1;
+      flex-basis: 45%;
+      width: 30rem;
+      height: 70%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.5);
+      margin: 4%;
+          }
+  
+  .main h3 {
+    font-size: 2rem;
+    text-align: start;
+    justify-self: flex-start;
+  }
+  
+  main p {
+    font-size: 1.2rem;
+    text-align: start;
+  }
+
+.textcoffeeroastingintro > * {
   flex-grow: 1;
   flex-basis: 45%;
-  max-width: 50%;     /* Prevents the child from growing larger than 45% */
+  max-width: 50%;    
   min-width: 25rem;
   padding: 10px;
   text-align: center;

@@ -1,12 +1,13 @@
 
 #accordion {
     display: flex;
-    flex-grow: 1;
-    flex-basis: 45%;
-    width: 400px;
-    margin: 20em;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+   
   }
-  #accordion > h4 {
+#accordion > h4 {
     background-color: var(--sth-br-cl);
     padding: 10px 20px;
     margin: 0;
