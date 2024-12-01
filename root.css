@@ -53,6 +53,7 @@ body {
 .margin-lr {margin-left: 2%; margin-right: 2%;}
 
 h1 {
+  font-size: 6em;
   font-family: var(--font-family);
 }
 
@@ -74,4 +75,36 @@ h4  {
 p  { 
   font-size: 1.56rem;
   font-family: var(--font-family);
+}
+
+
+@media (max-width: 768px){
+
+
+h1 {
+  font-size: 2em;;
+  font-family: var(--font-family);
+}
+
+h2  {
+  font-size: 2.2em;
+  font-family: var(--font-family);
+}
+
+h3  {
+  font-size: 1.5em;
+  font-family: var(--font-family);
+}
+
+h4  {
+  font-size: 1.5em;
+  font-family: var(--font-family);
+}
+
+p  { 
+  font-size: 1.56rem;
+  font-family: var(--font-family);
+}
+
+
 }

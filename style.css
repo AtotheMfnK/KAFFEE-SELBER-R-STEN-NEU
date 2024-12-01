@@ -1,30 +1,51 @@
 
-.main_topueberschrift {
+.main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  width: 100vw;
+  height: 80vh;
+  margin-bottom: 3%;
+  }
+  
+
+  .main > * {
     display: flex;
+    flex-grow: 1;
+    flex-basis: 45%;
+    max-width: 30rem;
+    height: 70vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 50%;
     color: white;
     background-color: rgba(255, 255, 255, 0.5);
         }
 
-.main_topueberschriftzwei {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 50%;
-    color: white;
- }
 
-.topueberschrift img,
-.topueberschriftzwei img {
+.main  > * img {
     max-width: 100%;
     height: auto;
+    
 }
+
+
+.teilnahmecta  {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 50%;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10em;
+  padding: 10px;
+  }
 
 .section {
   display: grid;
@@ -141,7 +162,7 @@
 
 }
 
-.grid-containereins {
+.textcoffeeroastingintro {
   display: flex;
   position: relative;
   justify-content: center;
@@ -153,7 +174,7 @@
   margin-bottom: 3%;
 }
 
-.grid-containereins > * {
+.textcoffeeroastingintro > * {
   flex-grow: 1;
   flex-basis: 45%;
   max-width: 50%;     /* Prevents the child from growing larger than 45% */
@@ -167,7 +188,7 @@
   background-color: var(--sth-br-cl);
 }
 
-.grid-containereins > * p {
+.textcoffeeroastingintro > * p {
   padding-bottom: 1em;
 }
 
@@ -215,6 +236,7 @@
 }
 
 .bg-watermark {
+      position: absolute;
       color:  #9d8c8c;
       font-size: clamp(6rem, 1.333rem + 12.4333vw, 19rem);
       font-weight: 800;
@@ -225,6 +247,7 @@
   }
     
   .bg-watermark_space {
+    position: absolute;
     color: #9d8c8c;
     font-size: clamp(6rem, 1.333rem + 18.4333vw, 18rem);
     font-weight: 800;
@@ -247,70 +270,6 @@
 }
 
 
-
-dom5gallery.css
-Pedro Remoaldo
-November 6th at 1:53 PM
-
-#modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    /* display: flex; */
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-#modalContent {
-    background-color: white;
-    max-width: 600px;
-    position: relative;
-}
-#gallery {
-    text-align: center;
-}
-#gallery img {
-    max-width: 200px;
-    cursor: pointer;
-    opacity: 0.5;
-}
-#gallery img:hover {
-    opacity: 1;
-    /* transform: scale(1.5); */
-}
-#bigImage {
-    max-width: 100%;
-    vertical-align: top;
-}
-#closeButton {
-    position: absolute;
-    top: -12px;
-    right: -12px;
-    background-color: white;
-    border: 3px solid #666;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    line-height: 22px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 5px #000;
-    font-weight: bold;
-    cursor: pointer;
-    user-select: none;
-}
-#closeButton:hover {
-    background-color: #666;
-    color: white;
-}
-#closeButton:active {
-    box-shadow: none;
-    top: -9px;
-    right: -15px;
-}
 
  .button  {
       display: grid;
