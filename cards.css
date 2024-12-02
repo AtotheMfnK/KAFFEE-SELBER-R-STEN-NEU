@@ -24,7 +24,15 @@
     justify-content: center;
     margin: 2rem;
     padding: 3%;   
+    cursor: pointer;
 }
+
+/* .cards_berlin,
+.cards_hamburg,
+.cards_nairobi:hover {
+    width: 80%;
+    height: auto;
+} */
 
 .cards_berlin h4,
 .cards_hamburg h4,
@@ -33,6 +41,13 @@
     color: var(--sth-br-cl);
     padding: 0.5rem;
 } 
+
+.cards_berlin a,
+.cards_hamburg a,
+.cards_nairobi a {
+    color: var(--snd-br-crl);
+    text-decoration: none;
+}
 
 
 

@@ -83,8 +83,10 @@
 }
 
 .logo {
-    width: 5rem;
+    width: 80px;
     height: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .highlighted {
@@ -148,7 +150,7 @@ li {
 
 .hero_Berlin {
   background-color:rgb(10, 62, 7);
-  background-image: url("img/Amnibeansflying.jpg");
+  background-image: url("img/BERLINFERNSEHTURMPANORAMA.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 20%;
@@ -158,7 +160,7 @@ li {
     
 .hero_Hamburg {
   background-color:rgb(10, 62, 7);
-  background-image: url("img/HAMBURGPANORAMA (1).jpg");
+  background-image: url("img/HAMBURGPANORAMA.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 20%;

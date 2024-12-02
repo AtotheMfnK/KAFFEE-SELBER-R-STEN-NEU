@@ -70,3 +70,28 @@
     top: -9px;
     right: -15px;
 }
+
+
+.mainpagegallerie {
+        display: flex;
+        max-width: 100vw;
+        height: 30rem;
+        justify-content: center;
+        margin: 10rem;
+      }
+      
+.mainpagegallerie img {
+        max-width: 30%;
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+
+.mainpagegallerie img:hover {
+    transform: scale(1.5); /* Skaliert das Bild auf das 1,5-fache */
+    cursor: pointer;
+}
+
+
+

@@ -9,6 +9,7 @@
   width: 100vw;
   height: 80vh;
   padding-bottom: 8%;
+  transition: transform 0.3s ease;
   }
   
 
@@ -22,9 +23,17 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url(img/TF.Bohne.png);
     margin: 4%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
         }
+
+  .main_childlinks:hover,
+  .main_childrechts:hover {
+    transform: translateY(30px) scale(1.2); 
+    cursor: pointer;
+  }
 
 .main h3 {
   font-size: 2rem;
@@ -104,6 +113,19 @@ main p {
   width: calc(100% - 2%);  /* Nimmt etwas Platz von der Breite */
   height: calc(100% - 2%); /* Nimmt etwas Platz von der H�he */
   border: none;
+}
+
+.weather {
+  display: block;
+  justify-content: center;
+  width: 50%;
+  height: 10rem;
+  padding-bottom: 4rem;
+  background-color: #275459;
+}
+
+.cityName {
+  max-width: 40%;
 }
 
   #erstertitel {

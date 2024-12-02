@@ -1,0 +1,10 @@
+
+.labeltf {
+    display: block;
+    border: dotted;
+    border-color: var(--snd-bg-clr);
+    margin: 2rem;
+    padding: 1rem;
+    width: 30rem;
+    font-family: 'ZeitungPro-Black-_1_';
+  }
