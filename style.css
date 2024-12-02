@@ -41,7 +41,7 @@
   justify-self: flex-start;
 }
 
-main p {
+.main p {
   font-size: 1.2rem;
   text-align: start;
 }
@@ -62,18 +62,10 @@ main p {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 10em;
   padding: 10px;
   }
 
-.section {
-  display: grid;
-  grid-template-columns: 40% 40%; 
-  grid-template-rows: 1fr;
-  justify-content: center;
-  gap: 3% ;
-  height: 65vh;
-}
+/* 
 
 .section_links{
     display: block;
@@ -113,7 +105,7 @@ main p {
   width: calc(100% - 2%);  /* Nimmt etwas Platz von der Breite */
   height: calc(100% - 2%); /* Nimmt etwas Platz von der H�he */
   border: none;
-}
+} */
 
 .weather {
   display: block;
