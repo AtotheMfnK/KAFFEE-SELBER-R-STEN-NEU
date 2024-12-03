@@ -77,6 +77,8 @@ p  {
 }
 
 
+#map { height: 280px; }
+
 @media (max-width: 768px){
 
 
@@ -104,6 +106,6 @@ p  {
   font-size: 1.56rem;
   font-family: var(--font-family);
 }
-
-
 }
+
+

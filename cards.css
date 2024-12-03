@@ -23,8 +23,7 @@
     text-align: center;
     justify-content: center;
     margin: 2rem;
-    padding: 3%;   
-    cursor: pointer;
+    padding: 3%;  
 }
 
 /* .cards_berlin,
@@ -40,6 +39,7 @@
     background-color: var(--scn-fn-crl);
     color: var(--sth-br-cl);
     padding: 0.5rem;
+    cursor: pointer;
 } 
 
 .cards_berlin a,

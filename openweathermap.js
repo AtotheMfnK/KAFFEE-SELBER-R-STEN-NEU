@@ -1,6 +1,6 @@
 const url = "https://api.openweathermap.org/data/2.5/weather?appid=a9da3d59707a8ef5dfffc657b928ac47&units=metric";
 
-
+// let Hamburg = "Hamburg";
 const fCityName=document.querySelector("#Hamburg");
 
 function showData(data) {
@@ -9,8 +9,8 @@ function showData(data) {
     document.querySelector("#currentTemperature").textContent=data.main.temp;
 }
 
-function showWeatherCity(Hamburg) {
-    fetch(`${url}&q=${Hamburg}`)
+function showWeatherCity(city) {
+    fetch(`${url}&q=${city}`)
         .then(response => {
             if (!response.ok) {
                 return Promise.reject("URL does not exist!");
@@ -24,8 +24,5 @@ function showWeatherCity(Hamburg) {
         .catch(error => console.log(error));
 }
 
-fCityName.addEventListener("load", function() {
-    // const city = fCityName.value;
-    // showWeatherCity(city);
-    showWeatherCity(fCityName.value);
-})
+
+showWeatherCity("Hamburg");

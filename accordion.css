@@ -1,12 +1,12 @@
 
 #accordion {
     display: flex;
-    flex-basis: 1;
-    flex-grow: 45%;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    align-content: center;
     left: 30%;
     width: 40%;
     background-color: var(--sth-br-cl);
