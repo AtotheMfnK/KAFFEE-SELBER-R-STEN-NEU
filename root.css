@@ -43,6 +43,13 @@ body {
   
 }
 
+.tf-bgcolorgreen {
+  background-color: var(--sth-br-cl);
+}
+
+.tf-colorwhite {
+  color: (--main-bg-clr);
+}
 .padding-ah { padding:4rem; }
 .padding-fb { padding-top:8%; }
 .padding-tb { padding: 1rem }

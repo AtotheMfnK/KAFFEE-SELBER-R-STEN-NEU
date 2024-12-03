@@ -1,4 +1,4 @@
-const url = "https://api.openweathermap.org/data/2.5/weather?appid=a9da3d59707a8ef5dfffc657b928ac47&units=metric";
+const url = "https://api.openweathermap.org/data/2.5/weather?appid=c7dd2826a943d88466223eff695dbc49&units=metric";
 
 // let Hamburg = "Hamburg";
 const fCityName=document.querySelector("#Hamburg");
