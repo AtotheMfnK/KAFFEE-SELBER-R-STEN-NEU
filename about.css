@@ -2,25 +2,38 @@
 display: flex;
 flex-direction: row;
 width: 100%;
-height: 100vh;
-background-color: blue;
-margin-left: 20%;
-margin-right: 20%;
+background-image: url(img/TF_Dorf.png);
 }
 
 .profile_text {
     display: flex;
+    flex-basis: 1;
+    flex-grow: 45%;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
     width: 50rem;
+    padding-left: 10%;
+    padding-right: 5%;
    
 }
 .profile_bild {
+   flex-basis: 1;
+   flex-grow: 45%;
    max-width: 60%;
-   background-color: var(--scn-fn-crl);
+   background-color: var(--sth-br-cl);
 }
 
 .profile_bild img {
-    max-width: 10%;
+    max-width: 30%;
+}
+
+.textaboutus {
+    display: block;
+    font-family: 'ZeitungPro-Black-_1_';
+    font-size: 2.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
