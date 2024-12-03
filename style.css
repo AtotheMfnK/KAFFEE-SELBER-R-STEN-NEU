@@ -101,10 +101,19 @@
 }
 
 .section_rechts iframe {
-  width: calc(100% - 2%);  /* Nimmt etwas Platz von der Breite */
-  height: calc(100% - 2%); /* Nimmt etwas Platz von der H�he */
+  width: calc(100% - 2%);  
+  height: calc(100% - 2%); 
   border: none;
 } */
+
+
+.middle_underpage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
 
 .weather {
   display: block;
@@ -247,12 +256,12 @@
      object-fit: fill;
      }
 
-.footer {
+.kontakt {
   display: flex;
   flex-direction: row wrap;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--sth-br-cl);
+  background-color: var(--snd-bg-clr);
   color: white;
   width: auto;
   height: 15rem;
@@ -338,6 +347,46 @@ tfoot td {
   font-weight: bold;
 }
 
+
+.footer {
+  display: flex;
+  position: absolute;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--sth-br-cl);
+  color: white;
+  width: 100%;
+  min-height: 30vh;
+  max-height: 80vh;
+  
+}
+
+.footer > * {
+  flex-grow: 1;
+  flex-basis: 15%;
+  justify-content: center;
+  max-width: 30%; /* Prevents the child from growing larger than 45% */
+  min-width: 20rem;
+  text-decoration: none;
+}
+
+svg {
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+}
+.footer__company {
+  text-align: center;
+}
+
+.footer__company ul {
+  list-style-type: none;
+}
+
+#Facebook_32 #Twitter_Circled_32 #linkedIn32_ #Instagram_32 {
+  color: white;
+}
   
 @media (max-width: 768px){
 

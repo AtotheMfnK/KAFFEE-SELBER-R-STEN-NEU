@@ -1,18 +1,26 @@
 .profile {
 display: flex;
 flex-direction: row;
-width: 80%;
+width: 100%;
+height: 100vh;
 background-color: blue;
-
+margin-left: 20%;
+margin-right: 20%;
 }
 
-.profile > {
+.profile_text {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 50rem;
    
 }
-.profile:last-child {
+.profile_bild {
    max-width: 60%;
-   background-color: brown;
+   background-color: var(--scn-fn-crl);
+}
+
+.profile_bild img {
+    max-width: 10%;
 }

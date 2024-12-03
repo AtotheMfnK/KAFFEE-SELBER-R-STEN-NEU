@@ -147,7 +147,6 @@ li {
                  
 
 .hero_Berlin {
-  background-color:rgb(10, 62, 7);
   background-image: url("img/BERLINFERNSEHTURMPANORAMA.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -157,7 +156,6 @@ li {
 
     
 .hero_Hamburg {
-  background-color:rgb(10, 62, 7);
   background-image: url("img/HAMBURGPANORAMA.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -165,8 +163,10 @@ li {
   height: 700px;
 }
 
-.hero_Berlin .hero_Hamburg {
-  background-color:rgba(255, 0, 0, 0.8)
+.hero_block-color {
+  background-color: var( --sth-br-cl);
+  opacity: 0.4;
+  z-index: -1;
 }
 
 .hero_block {
